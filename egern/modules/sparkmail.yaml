@@ -1,0 +1,8 @@
+name: Spark Mail会员
+description: Spark Mail会员
+icon: https://raw.githubusercontent.com/Arkove/ProxyKit/main/icons/sparkmail.png
+
+scriptings:
+- generic:
+    name: Spark Mail会员
+    script_url: https://raw.githubusercontent.com/Arkove/ProxyKit/main/qx/rewrite/sparkmail.conf
