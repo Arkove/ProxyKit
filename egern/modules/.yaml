@@ -1,0 +1,8 @@
+name: 
+description: 
+icon: https://raw.githubusercontent.com/Arkove/ProxyKit/main/icons/
+
+scriptings:
+- generic:
+    name: 
+    script_url: https://raw.githubusercontent.com/Arkove/ProxyKit/main/qx/rewrite/.conf
