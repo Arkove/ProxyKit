@@ -12,20 +12,53 @@ chcp 65001 > $null
 $Repo = "D:\onedrive\Desktop\Code\ProxyKit"
 
 $QxDir = "$Repo\qx\rewrite"
+$LoonDir = "$Repo\loon\plugins"
+$SurgeDir = "$Repo\surge\modules"
 $EgernDir = "$Repo\egern\modules"
 
 New-Item -ItemType Directory -Force -Path $QxDir | Out-Null
+New-Item -ItemType Directory -Force -Path $LoonDir | Out-Null
+New-Item -ItemType Directory -Force -Path $SurgeDir | Out-Null
 New-Item -ItemType Directory -Force -Path $EgernDir | Out-Null
 
 $QxFile = "$QxDir\$FileName.conf"
+$LoonFile = "$LoonDir\$FileName.plugin"
+$SurgeFile = "$SurgeDir\$FileName.sgmodule"
+$YamlFile = "$EgernDir\$FileName.yaml"
 
 Invoke-WebRequest `
     -Uri $ScriptUrl `
     -OutFile $QxFile
 
+$RawContent = Get-Content $QxFile -Raw
+
 $IconUrl = "https://raw.githubusercontent.com/Arkove/ProxyKit/main/icons/$IconFile"
 
-$EgernYaml = @"
+$LoonContent = @"
+#!name=$Name
+#!icon=$IconUrl
+
+$RawContent
+"@
+
+Set-Content `
+    -Path $LoonFile `
+    -Value $LoonContent `
+    -Encoding UTF8
+
+$SurgeContent = @"
+#!name=$Name
+#!icon=$IconUrl
+
+$RawContent
+"@
+
+Set-Content `
+    -Path $SurgeFile `
+    -Value $SurgeContent `
+    -Encoding UTF8
+
+$YamlContent = @"
 name: $Name
 description: $Name
 icon: $IconUrl
@@ -36,11 +69,9 @@ scriptings:
     script_url: https://raw.githubusercontent.com/Arkove/ProxyKit/main/qx/rewrite/$FileName.conf
 "@
 
-$YamlPath = "$EgernDir\$FileName.yaml"
-
 Set-Content `
-    -Path $YamlPath `
-    -Value $EgernYaml `
+    -Path $YamlFile `
+    -Value $YamlContent `
     -Encoding UTF8
 
 Set-Location $Repo
@@ -51,32 +82,24 @@ git commit -m "Import $Name"
 
 git push
 
-$RawQx = "https://raw.githubusercontent.com/Arkove/ProxyKit/main/qx/rewrite/$FileName.conf"
-
-$Loon = "http://script.hub/file/_start_/$RawQx/_end_/$FileName.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true&n=$([uri]::EscapeDataString($Name))&icon=$([uri]::EscapeDataString($IconUrl))"
-
-$Surge = "http://script.hub/file/_start_/$RawQx/_end_/$FileName.sgmodule?type=qx-rewrite&target=surge-module&del=true&jqEnabled=true&n=$([uri]::EscapeDataString($Name))&icon=$([uri]::EscapeDataString($IconUrl))"
-
-$Egern = "https://raw.githubusercontent.com/Arkove/ProxyKit/main/egern/modules/$FileName.yaml"
-
 Write-Host ""
 Write-Host "====================================="
-Write-Host "导入完成"
+Write-Host "四端同步完成"
 Write-Host "====================================="
 Write-Host ""
 
 Write-Host "QX:"
-Write-Host $RawQx
+Write-Host "https://raw.githubusercontent.com/Arkove/ProxyKit/main/qx/rewrite/$FileName.conf"
 Write-Host ""
 
 Write-Host "Loon:"
-Write-Host $Loon
+Write-Host "https://raw.githubusercontent.com/Arkove/ProxyKit/main/loon/plugins/$FileName.plugin"
 Write-Host ""
 
 Write-Host "Surge:"
-Write-Host $Surge
+Write-Host "https://raw.githubusercontent.com/Arkove/ProxyKit/main/surge/modules/$FileName.sgmodule"
 Write-Host ""
 
 Write-Host "Egern:"
-Write-Host $Egern
+Write-Host "https://raw.githubusercontent.com/Arkove/ProxyKit/main/egern/modules/$FileName.yaml"
 Write-Host ""
