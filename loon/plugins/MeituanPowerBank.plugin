@@ -1,16 +1,11 @@
-#!desc=美团充电宝增强
 #!name=美团充电宝增强
-#!author=奶思
-#!homepage=https://github.com/fmz200/wool_scripts
-#!icon=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/gif/naisi-01.gif
-#!raw-url=https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partM/MeituanPowerBank.lpx
-#!tg-channel=https://t.me/inaisi
-#!date=
+#!desc=美团充电宝增强
+#!icon=https://raw.githubusercontent.com/Toperlock/Quantumult/main/icon/meituan.png
+
 #############################################
 
 [Rewrite]
 ^https?:\/\/cdb\.meituan\.com\/marketing\/source\/getPageSlotList reject-dict
-
 
 [MITM]
 hostname = cdb.meituan.com

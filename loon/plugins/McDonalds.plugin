@@ -1,18 +1,11 @@
-#!desc=麦当劳增强
 #!name=麦当劳增强
-#!author=奶思
-#!homepage=https://github.com/fmz200/wool_scripts
-#!icon=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/gif/naisi-01.gif
-#!raw-url=https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partM/McDonalds.lpx
-#!tg-channel=https://t.me/inaisi
-#!date=
+#!desc=麦当劳增强
+#!icon=https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/03CNSoft/mcdonalds.png
+
 #############################################
 
 [Rewrite]
 ^https?:\/\/api\.mcd\.cn\/bff\/portal\/home\/splash reject-200
-
-
-
 
 [MITM]
 hostname = api.mcd.cn
