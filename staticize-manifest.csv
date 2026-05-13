@@ -1,15 +1,27 @@
-Name,SourceUrl,FileName,Target,IconFile
-七麦数据增强,https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partQ/QiMai.lpx,QiMai,loon,qimai.png
-掌上道聚城增强,https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partZ/ZhangShangDaoJuCheng.lpx,ZhangShangDaoJuCheng,loon,daojuchen.png
-掌上英雄联盟增强,https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partZ/ZhangShangLOL.lpx,ZhangShangLOL,loon,zhangmeng.png
-掌通家园增强,https://raw.githubusercontent.com/luoxmc/loon/main/Plugin/ZhangTongJiaYuan.lpx,ZhangTongJiaYuan,loon,
-微信读书增强,https://raw.githubusercontent.com/Maasea/sgmodule/master/WeRead.sgmodule,WeRead,surge,Weread.png
-网易云音乐 Header,https://raw.githubusercontent.com/anyehttp/quantumult-x/main/headers/wyy-surge.sgmodule,wyy-surge,surge,
-芒果 TV 去广告,https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partM/MangoTV.lpx,MangoTV,loon,
-爱奇艺去广告,https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partA/iQIYI.lpx,iQIYI,loon,
-腾讯视频去广告,https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partT/TencentVideo.lpx,TencentVideo,loon,
-Apple 服务增强,https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partA/Apple.lpx,Apple,loon,
-麦当劳增强,https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partM/McDonalds.lpx,McDonalds,loon,
-美团充电宝增强,https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partM/MeituanPowerBank.lpx,MeituanPowerBank,loon,
-美团与美团外卖增强,https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partM/Meituan-MeituanWaimai.lpx,Meituan-MeituanWaimai,loon,
-米家增强,https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partM/Mijia.lpx,Mijia,loon,
+﻿"Name","Desc","SourceUrl","OldUrl","ScriptHubUrl","FileName","Target","Extension","IconFile","IconUrl","PreserveMetadata","Mode","UserAgent","Referer","Headers"
+"腾讯视频去广告","","https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partT/TencentVideo.lpx","","","TencentVideo","loon","","","https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/tencentvideo.png","false","direct","","",""
+"芒果 TV 去广告","","https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partM/MangoTV.lpx","","","MangoTV","loon","","","https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Mango_TV.png","false","direct","","",""
+"爱奇艺去广告","","https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partA/iQIYI.lpx","","","iQIYI","loon","","","https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/iQiYi_Video.png","false","direct","","",""
+"Apple 服务增强","","https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partA/Apple.lpx","","","Apple","loon","","","https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/03CNSoft/apple.png","false","direct","","",""
+"麦当劳增强","","https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partM/McDonalds.lpx","","","McDonalds","loon","","","https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/03CNSoft/mcdonalds.png","false","direct","","",""
+"美团充电宝增强","","https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partM/MeituanPowerBank.lpx","","","MeituanPowerBank","loon","","","https://raw.githubusercontent.com/Toperlock/Quantumult/main/icon/meituan.png","false","direct","","",""
+"美团与美团外卖增强","","https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partM/Meituan-MeituanWaimai.lpx","","","Meituan-MeituanWaimai","loon","","","https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/MeiTuanItakeaway.png","false","direct","","",""
+"米家增强","","https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partM/Mijia.lpx","","","Mijia","loon","","","https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/MiHome.png","false","direct","","",""
+"七麦数据增强","","https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partQ/QiMai.lpx","","","QiMai","loon","","qimai.png","","false","direct","","",""
+"掌上道聚城增强","","https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partZ/ZhangShangDaoJuCheng.lpx","","","ZhangShangDaoJuCheng","loon","","daojuchen.png","","false","direct","","",""
+"掌上英雄联盟增强","","https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partZ/ZhangShangLOL.lpx","","","ZhangShangLOL","loon","","zhangmeng.png","","false","direct","","",""
+"掌通家园增强","","https://raw.githubusercontent.com/luoxmc/loon/main/Plugin/ZhangTongJiaYuan.lpx","","","ZhangTongJiaYuan","loon","","","https://raw.githubusercontent.com/luoxmc/loon/main/Icon/ztjy.png","false","direct","","",""
+"微信读书增强","","https://raw.githubusercontent.com/Maasea/sgmodule/master/WeRead.sgmodule","","","WeRead","surge","","Weread.png","","false","direct","","",""
+"网易云音乐 Header","","https://raw.githubusercontent.com/anyehttp/quantumult-x/main/headers/wyy-surge.sgmodule","","","wyy-surge","surge","","","","true","direct","","",""
+"奇游社增强","","https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/qiyoushe/modules/qiyoushequ.sgmodule","","","qiyoushequ","surge","","","https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png","false","direct","","",""
+"墨鱼去开屏","","https://ddgksf2013.top/rewrite/StartUpAds.conf","","","StartUpAds","source","","","","true","source","Surge","","User-Agent:Surge"
+"GoodNotes 增强","","https://ddgksf2013.top/scripts/goodbility.vip.js","","","goodbility.vip","source","","","","true","source","Surge","https://ddgksf2013.top/","User-Agent:Surge"
+"且听增强","","https://raw.githubusercontent.com/WeiGiegie/666/main/qieting.js","","","qieting","source","","","","true","source","Surge","","User-Agent:Surge"
+"幕布增强","","https://raw.githubusercontent.com/afengye/QX/main/mubu.js","","","mubu","source","","","","true","source","Surge","","User-Agent:Surge"
+"薄荷英语增强","","https://raw.githubusercontent.com/liul0ng/quanx/refs/heads/main/bohe.js","","","bohe","source","","","","true","source","Surge","","User-Agent:Surge"
+"ELSA Speak 增强","","https://raw.githubusercontent.com/chxm1023/Rewrite/main/elsa.js","","","elsa","source","","","","true","source","Surge","","User-Agent:Surge"
+"懒人英语阅读增强","","https://raw.githubusercontent.com/WeiGiegie/666/main/lryyyd.js","","","lryyyd","source","","","","true","source","Surge","","User-Agent:Surge"
+"LisPod 增强","","https://raw.githubusercontent.com/WeiGiegie/666/main/lispod.js","","","lispod","source","","","","true","source","Surge","","User-Agent:Surge"
+"Sleep Cycle 增强","","https://raw.githubusercontent.com/xiaomaoJT/QxScript/main/rewrite/boxJS/XiaoMaoSleepCycle.js","","","XiaoMaoSleepCycle","source","","","","true","source","Surge","","User-Agent:Surge"
+"Forest 专注森林增强","","https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/forest.js","","","forest","source","","","","true","source","Surge","","User-Agent:Surge"
+"海角增强","","https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/haijiao.js","","","haijiao","source","","","","true","source","Surge","","User-Agent:Surge"

@@ -2,6 +2,15 @@
 #!desc=掌通家园增强
 #!icon=https://raw.githubusercontent.com/luoxmc/loon/main/Icon/ztjy.png
 
+#!openUrl = https://apps.apple.com/cn/app/id914847333
+#!author = luoxx[https://github.com/luoxmc]
+#!tag = 去广告
+#!system =
+#!system_version =
+#!loon_version = 3.3.2(877)
+#!homepage = https://github.com/luoxmc/loon/blob/main/README.md
+#!date = 2025-10-30 17:50
+
 [Rule]
 
 [Rewrite]
@@ -20,5 +29,3 @@
 
 [MitM]
 hostname = api.szy.cn
-
-

@@ -2,6 +2,13 @@
 #!desc=芒果 TV 去广告
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Mango_TV.png
 
+#!author=奶思
+#!homepage=https://github.com/fmz200/wool_scripts
+#!raw-url=https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partM/MangoTV.lpx
+#!tg-channel=https://t.me/inaisi
+#!date=
+#############################################
+
 [Argument]
 mhgotv_enable = switch,true,false,tag=芒果TV-脚本开关
 
@@ -66,5 +73,3 @@ http-response ^https?:\/\/mobileso\.bz\.mgtv\.com\/mobile\/recommend\/v2\? scrip
 
 [MITM]
 hostname = *.mgtv.com
-
-

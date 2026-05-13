@@ -1,6 +1,7 @@
-#!icon=https://raw.githubusercontent.com/Arkove/ProxyKit/main/icons/Weread.png
-#!desc=微信读书增强
 #!name=微信读书增强
+#!desc=微信读书增强
+#!icon=https://raw.githubusercontent.com/Arkove/ProxyKit/main/icons/Weread.png
+
 # 测试环境： 1.关闭微信阅读通知；2.禁止微信阅读获取微信好友权限
 # 功能：1.去除底部小红点提示；2.去除阅读页面小圈子提示；3.去除阅读页面评论、分享等数字
 

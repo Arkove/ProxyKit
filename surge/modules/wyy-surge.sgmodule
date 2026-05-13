@@ -54,4 +54,3 @@ DOMAIN,ipv6.music.163.com,REJECT
 
 [MITM]
 hostname = %APPEND% interface*.music.163.com
-
