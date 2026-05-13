@@ -1,0 +1,16 @@
+#!icon=https://raw.githubusercontent.com/Arkove/ProxyKit/main/icons/daojuchen.png
+#!desc=掌上道聚城增强
+#!name=掌上道聚城增强
+#!author=奶思
+#!homepage=https://github.com/fmz200/wool_scripts
+#!raw-url=https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partZ/ZhangShangDaoJuCheng.lpx
+#!tg-channel=https://t.me/inaisi
+#!date=
+#############################################
+
+[Rewrite]
+^https?:\/\/djcapp\.game\.qq\.com\/daoju\/igw\/main\/\?_service=welink\.ad\.list&_ret_key=result&site_set reject-200
+
+
+[MITM]
+hostname = djcapp.game.qq.com

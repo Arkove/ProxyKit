@@ -1,0 +1,19 @@
+#!icon=https://raw.githubusercontent.com/Arkove/ProxyKit/main/icons/zhangmeng.png
+#!desc=掌上英雄联盟增强
+#!name=掌上英雄联盟增强
+#!author=奶思
+#!homepage=https://github.com/fmz200/wool_scripts
+#!raw-url=https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/split/partZ/ZhangShangLOL.lpx
+#!tg-channel=https://t.me/inaisi
+#!date=
+#############################################
+
+[Rewrite]
+# 开屏广告 感谢【𝑨梦 𝑪𝒉𝒙𝒎𝟏𝟎𝟐𝟑】分享
+^https?:\/\/us\.l\.qq\.com\/exapp reject-200
+^https?:\/\/ossweb-img\.qq\.com\/upload\/adw\/image\/[0-9]{3}\/202[0-9]{5}\/[a-z0-9]{32}\.(jpg|jpeg) reject-200
+^https?:\/\/mlol\.qt\.qq\.com\/go\/recommend reject
+
+
+[MITM]
+hostname = us.l.qq.com, ossweb-img.qq.com, mlol.qt.qq.com

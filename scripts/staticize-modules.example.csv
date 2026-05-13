@@ -1,0 +1,7 @@
+Name,OldUrl,SourceUrl,FileName,IconFile,IconUrl,Target,Extension,Mode,Enabled
+七麦数据增强,,https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partQ/QiMai.lpx,QiMai,qimai.png,,loon,.lpx,direct,true
+掌上英雄联盟增强,,https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partZ/ZhangShangLOL.lpx,ZhangShangLOL,zhangmeng.png,,loon,.lpx,direct,true
+芒果 TV 去广告,,https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partM/MangoTV.lpx,MangoTV,,,loon,.lpx,direct,true
+美团充电宝增强,,https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/split/partM/MeituanPowerBank.lpx,MeituanPowerBank,,,loon,.lpx,direct,true
+微信读书增强,,https://raw.githubusercontent.com/Maasea/sgmodule/master/WeRead.sgmodule,WeRead,Weread.png,,surge,.sgmodule,direct,true
+网易云音乐 Header,,https://raw.githubusercontent.com/anyehttp/quantumult-x/main/headers/wyy-surge.sgmodule,wyy-surge,,,surge,.sgmodule,direct,true
