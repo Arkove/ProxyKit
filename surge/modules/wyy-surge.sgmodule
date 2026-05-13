@@ -1,5 +1,5 @@
-#!desc=网易云音乐 Header
-#!name=网易云音乐 Header
+#!name=网易云svip会员（完全免费不要到处分享）
+#!desc=共享网易云svip会员 完全免费不要到处分享 失效群内反馈频道
 #!author=暗夜[https://t.me/IPAs_share]
 #!icon=https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2d/e8/1b/2de81bfd-29a0-d067-63c3-38315cc1661a/AppIcon-1x_U007emarketing-0-9-0-0-85-220-0.png/460x0w.webp
 #!homepage=https://apps.apple.com/app/id590338362
@@ -54,3 +54,4 @@ DOMAIN,ipv6.music.163.com,REJECT
 
 [MITM]
 hostname = %APPEND% interface*.music.163.com
+
